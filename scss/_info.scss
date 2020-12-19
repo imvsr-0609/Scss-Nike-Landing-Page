@@ -1,0 +1,31 @@
+.info {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  max-width: 40%;
+  line-height: 1.5;
+
+  p {
+    padding: 10px 0;
+  }
+
+  .cost {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  .name {
+    line-height: 1.2;
+    font-size: 2.5em;
+  }
+  .add-to-cart {
+    width: 25%;
+    border: none;
+    outline: none;
+    color: inherit;
+    background-color: $right-background-top;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 0.8em;
+  }
+}

@@ -1,0 +1,60 @@
+.bottom {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+  .social {
+    @include flexbox;
+
+    i {
+      padding: 0 10px;
+      cursor: pointer;
+    }
+  }
+
+  .trailer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+
+    .logo {
+      position: relative;
+
+      i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+      }
+
+      .fa-play {
+        font-size: 0.4em;
+      }
+      .fa-circle {
+        font-weight: 200;
+      }
+    }
+
+    .watch {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+
+      p {
+        font-size: 0.6em;
+      }
+      h5 {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
